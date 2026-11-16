@@ -126,21 +126,62 @@
 // pname("Iqbal")
 
 
-function even_odd(a){
+// function even_odd(a){
 
-    // console.log(a)
-    if (a % 2 ==0){
-        // console.log("Even")
-        return "Even"
+//     // console.log(a)
+//     if (a % 2 ==0){
+//         // console.log("Even")
+//         return "Even"
+//     }
+//     else{
+//         // console.log("Odd")
+//         return "Odd"
+//     }
+// }
+
+// let num = prompt("Please enter a number:")
+// // even_odd(a)
+// console.log(even_odd(num))
+
+
+
+// Array
+
+let  students = ["muneeb","haseeb","ayan", "hamza"]
+
+// console.log(students)
+// console.log(students[0])
+
+// Jump Statement (break, continue, skip)
+// for (i = 0; i < students.length; i++){
+//     if (i == 2){
+//         break
+//     }
+//     else{
+//         console.log(students[i])
+//     }
+// }
+
+
+// console.log(students.length)
+
+
+
+// for (i = 0; i < students.length; i++){
+//     if (i == 2){
+//         continue
+//     }
+//     else{
+//         console.log(students[i])
+//     }
+// }
+
+
+for (i = 0; i < students.length; i++){
+    if (students[i] == "haseeb"){
+        continue
     }
     else{
-        // console.log("Odd")
-        return "Odd"
+        console.log(students[i])
     }
 }
-
-let num = prompt("Please enter a number:")
-// even_odd(a)
-console.log(even_odd(num))
-
-
