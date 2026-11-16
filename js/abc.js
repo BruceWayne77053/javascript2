@@ -86,9 +86,61 @@
 //     console.log(i)
 // }
 
-let total = 0
-for (a = 0; a <= 5; a++){
-    total += a
+// let total = 0
+// for (a = 0; a <= 5; a++){
+//     total += a
+// }
+
+// console.log(total)
+
+
+// Function
+// function pname(){
+//     console.log("Muneeb")
+// }
+
+// pname()
+// pname()
+// alert("Muneeb")
+
+
+// Return Function
+// function even_odd(a){
+
+//     // console.log(a)
+//     if (a % 2 ==0){
+//         // console.log("Even")
+//         return "Even"
+//     }
+//     else{
+//         // console.log("Odd")
+//         return "Odd"
+//     }
+// }
+
+// let a = 5 * 6
+// // even_odd(a)
+// console.log(even_odd(a))
+
+// pname("Muneeb")
+// pname("Iqbal")
+
+
+function even_odd(a){
+
+    // console.log(a)
+    if (a % 2 ==0){
+        // console.log("Even")
+        return "Even"
+    }
+    else{
+        // console.log("Odd")
+        return "Odd"
+    }
 }
 
-console.log(total)
+let num = prompt("Please enter a number:")
+// even_odd(a)
+console.log(even_odd(num))
+
+
